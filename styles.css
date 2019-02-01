@@ -1,0 +1,13 @@
+.logo, .photocv {
+   width:80%;
+   height:auto;
+}
+.videosize, .logo {
+  	text-align: center;
+  	margin-right: auto;
+  	margin-left: auto;
+}
+.embed-responsive {
+  max-width: 680px;
+  max-height: 480px;
+}

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Isabelle</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-3 col-lg-2 bg-dark text-white">
+                <header class="sticky-top" id="hauteur">
+                    <nav>
+                        <div class="dropdown-divider"></div>
+                        <p class="text-center">
+                            <img class="logo rounded" src="images/logo.jpg" alt="logo entreprise DIKR'INDUS" title="logo entreprise">
+                        </p>
+                        <div class="dropdown-divider"></div>
+                        <ul class="nav nav-pills nav-fill flex-md-column">
+                            <li class="nav-item "><a href="index.html" class="nav-link">Retour au site d'entreprise</a></li>
+                        </ul>
+                        <div class="dropdown-divider"></div>
+                        <ul class="nav nav-pills nav-fill flex-md-column">
+                            <li class="nav-item "><a href="cv-isabelle.html" class="nav-link">Curriculum Vitae</a></li>
+                            <li class="nav-item"><a href="hobby-isabelle.html" class="nav-link">Hobby</a></li>
+                            <li class="nav-item"><a href="video-isabelle.html" class="nav-link">Vidéo</a></li>
+                            <li class="nav-item"><a href="contact-isabelle.html" class="nav-link active">Contact</a></li>
+                        </ul>
+                        <div class="dropdown-divider"></div>
+                    </nav>
+                </header>
+            </div>
+            <div class="col-12 col-md-9 col-lg-10">
+                <main>
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-9 jumbotron text-center">
+                            <h1>CV BARBIER Isabelle</h1>
+                            <h2>Technicien Développeur</h2>
+                            <p>14 avenue Stéphane Mallarmé<br>
+                                BtC89<br>
+                                26200 MONTELIMAR<br>
+                                mail : isabelle.barbier26@gmail.com<br>
+                                07.81.64.43.30<br>
+                                Célibataire<br>
+                                46 ans<br>
+                                permis B
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-3 text-center">
+                            <img src="images/photo-isabelle.jpg" class="photocv" alt="ma photo">
+                        </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <section>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="well well-sm">
+                                        <h3 class="text-center">Contactez-moi</h3>
+                                        <form action="https://httpbin.org/get" class="form-horizontal" method="get">
+                                            <fieldset>
+                                                <div class="radio">
+                                                    <label><input type="radio" name="optradio" checked> Mr</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label><input type="radio" name="optradio"> Mme</label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                                    <div class="col-md-8">
+                                                        <input id="fname" name="name" type="text" placeholder="Nom"
+                                                            class="form-control" required>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                                    <div class="col-md-8">
+                                                        <input id="lname" name="name" type="text" placeholder="Prénom"
+                                                            class="form-control" required>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                                    <div class="col-md-8">
+                                                        <input id="email" name="email" type="text" placeholder="Email"
+                                                            class="form-control" required>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                                    <div class="col-md-8">
+                                                        <input id="phone" name="phone" type="text" placeholder="Téléphone"
+                                                            class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                                    <div class="col-md-8">
+                                                        <select id="Sujet" name="select">
+
+                                                            <option value="Recrutement">Recrutement</option>
+
+                                                            <option value="Info">Info</option>
+
+                                                            <option value="Personnel">Personnel</option>
+
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                                    <div class="col-md-8">
+                                                        <textarea class="form-control" id="message" name="message"
+                                                            placeholder="Votre message ici." rows="7"></textarea>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <div class="col-md-12 text-center">
+                                                        <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
+                                                        <button type="reset" class="btn btn-primary btn-lg">Annuler</button>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                </main>
+
+                <footer class="text-center jumbotron">
+                    <p>2019- © Tous droits réservés au Campus Numérique</p>
+                    <a href="https://fr-fr.facebook.com/campusNumeriqueInTheAlps/" target="_blank">
+                        <img src="images/iconefacebook.jpg" alt="Nous suivre sur Facebook"></a>
+                    <a href="https://twitter.com/FrenchtechVR" target="_blank">
+                        <img src="images/iconetwitter.jpg" alt="Nous suivre sur Twitter"></a>
+                    <a href="https://fr.linkedin.com/company/campus-numerique-in-the-alps" target="_blank">
+                        <img src="images/iconelinkedin.jpg" alt="Nous suivre sur linkedin"></a>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
